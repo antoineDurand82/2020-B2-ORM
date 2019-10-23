@@ -8,8 +8,16 @@ exports = module.exports = {
   algo: function (input) {
     // YOUR CODE BETWEEN HERE
     let nb_carton = input[0]
-    for(var i = 1; i < input.length, i++){
-      if()
+    var poids = 0
+    var poids_max = 100
+    var test = 0
+    for(var i = 1; i < input.length; i++)
+    {
+      
+      poids += input[i]
+      console.log(poids)
+      test = poids_max / poids
+      console.log(test)
     }
     // AND HERE
   },

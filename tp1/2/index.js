@@ -7,7 +7,10 @@ exports = module.exports = {
   datasets,
   algo: function (input) {
     // YOUR CODE BETWEEN HERE
-
+    let nb_carton = input[0]
+    for(var i = 1; i < input.length, i++){
+      if()
+    }
     // AND HERE
   },
   verify: function (dataset, output) {
